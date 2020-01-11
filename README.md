@@ -8,5 +8,7 @@ How to run the exploit
 python exploit.py <target_ip> <pipe_name>
 once the user is created you can logged in to the system using rdesktop
 
-user    : John 
+user    : John ,
 Password: fadf24as
+
+rdesktop -u John -p fadf24as <target_ip>
