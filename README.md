@@ -13,7 +13,7 @@ once the user is created you can logged in to the system using rdesktop
 
 rdesktop -u John -p fadf24as <target_ip>
 
-How to find the pipe
+## How to find the pipe
 
 msfconsole
 #use auxiliary/scanner/smb/pipe_auditor
