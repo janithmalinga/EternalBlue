@@ -1,5 +1,5 @@
 # EternalBlue
-I have changed the script for create a new user and add the user to administrator group
+I have done some changes to the https://github.com/worawit/MS17-010/blob/master/zzz_exploit.py developed by sleepya. This script create a new user and add the user to administrator group
 
 Detect the vulnerability
 nmap --script smb-vuln-ms17-010 -p445 <target_ip>
